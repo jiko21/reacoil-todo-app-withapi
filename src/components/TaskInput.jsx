@@ -35,6 +35,7 @@ const TaskInput = ({submitTask}) => {
           <Form.Label>Todoを入力</Form.Label>
           <Form.Control type="text" placeholder="todo" value={title} onChange={onChangeTitle} />
           <Form.Control type="text" as="textarea" rows="3" placeholder="overview" value={overview} onChange={onChangeOvewview} />
+          <Button onClick={onSubmit}>追加</Button>
         </Form>
       </Card.Body>
     </Card>
